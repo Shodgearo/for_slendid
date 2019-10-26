@@ -24,7 +24,19 @@
 <link href="https://avega-soft.ru/themes/template/assets/css/owl.theme.default.css" rel="stylesheet" type="text/css" media="all" />
 <link href="https://avega-soft.ru/themes/template/assets/css/jquery.fancybox.css" rel="stylesheet" type="text/css" media="all" />
 
-	<title>Обслуживание и сопровождение 1С: Предприятие - цены и тарифы</title>
+<title>Обслуживание и сопровождение 1С: Предприятие - цены и тарифы</title>
+
+<!-- Bootstrap core CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<style>
+    form {
+        background-color: #f9f9f9;
+        padding: 20px;
+        margin: 20px;
+    }
+</style>
 
 </head>
 <body>
@@ -36,12 +48,12 @@
                 <div class="row h-100 align-items-center">
                     <div class="col-5">
                         <div class="top-header-content">
-                            <p style="font-size: 18px">1С программист</p>
+                            <p style="font-size: 18px">Услуги 1С программиста</p>
                         </div>
                     </div>
                     <div class="col-7">
                         <div class="top-header-content text-right">
-                            <p style="font-size: 18px"><i class="fa fa-clock-o" aria-hidden="true"></i> Приём заявок круглосуточно <span class="mx-2"></span> | <span class="mx-2"></span> <i class="fa fa-phone" aria-hidden="true"></i> Мой номер: (+12)-345-6789</p>
+                            <p style="font-size: 18px"> почта freesupport1c@yandex.ru <span class="mx-2"></span> | <span class="mx-2"></span> <i class="fa fa-phone" aria-hidden="true"></i> тел. 8-951-427-2512</p>
                         </div>
                     </div>
                 </div>
@@ -61,9 +73,9 @@
 	                    <!-- Welcome Text -->
 	                    <div class="col-12 col-md-9 col-lg-6">
 	                        <div class="welcome-text">
-	                            <h2 data-animation="fadeInUp" data-delay="100ms">Опытный программист 1С<br>  предлагает свои услуги!</h2>
-	                            <p data-animation="fadeInUp" data-delay="400ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	                            <a href="#" class="btn akame-btn" data-animation="fadeInUp" data-delay="700ms">Попробовать</a>
+	                            <h1 data-animation="fadeInUp" data-delay="100ms">Продажа и комплексное обслуживание 1С</h1>
+	                            <p data-animation="fadeInUp" data-delay="400ms">прогрессивная IT - компания, официальный франчайзи фирмы «1С». Мы предоставляем полный комплекс услуг по продаже, внедрению и сопровождению 1С в любой точке страны. Успешно работаем с компаниями из различных отраслей — от небольших фирм до крупных холдингов.</p>
+	                            <a href="#" class="btn akame-btn" data-animation="fadeInUp" data-delay="700ms">Задать вопрос</a>
 	                        </div>
 	                    </div>
 	                </div>
@@ -194,6 +206,46 @@
 </table>
 </div>
 <p style="text-align: center;"><button id="modalServiceOrderBtn" class="btn btn-primary btn-lg order-btn" data-form_type="service_info" data-service-name="Обслуживание 1С">Оставить заявку</button></p>
+
+<div class="container">
+
+      <div class="row">
+        <div class="col-sm-4">
+            <form action="mail.php" method="POST">
+                <legend>Заголовок формы</legend>
+
+                <div class="form-group">
+                    <label for="">Введите ваше имя</label>
+                    <input type="text" class="form-control" id="" name="user_name" placeholder="Например, Иван">
+                </div>
+            
+                <div class="form-group">
+                    <label for="">Введите номер телефона</label>
+                    <input type="text" class="form-control" id="" name="user_phone" placeholder="+7 (999) 99 99 999">
+                </div>
+            
+                <div class="form-group">
+                    <label for="">Введите email</label>
+                    <input type="text" class="form-control" id="" name="user_email" placeholder="mail@mail.ru">
+                </div>
+            
+                <button type="submit" class="btn btn-primary">Отправить форму</button>
+            </form>
+        </div><!-- .col-sm-4 -->
+      </div> <!-- .row -->
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+
 <!-- CONTENT END -->
 
 <footer id="footer-wrp" class="lato">
@@ -350,6 +402,5 @@
     <script src="js/akame.bundle.js"></script>
     <!-- Active -->
     <script src="js/default-assets/active.js"></script>
-
 </body>
 </html>
