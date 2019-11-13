@@ -48,7 +48,6 @@ Last Update: Jan 19, 2018
   padding: 0; }
 
 body {
-  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   position: relative;
@@ -70,13 +69,33 @@ li {
   list-style: none; }
 
 p {
+  font-family: "Arial"
   line-height: 1.9;
-  font-size: 21px;
+  font-size: 18px;
 }
 
 img {
   max-width: 100%;
   height: auto; }
+
+#test {
+  font-size: 40px;
+  position: relative;
+  background-image: url(http://1c-konsultant.ru/wp-content/uploads/2019/06/1855c094-cbdb-11e5-9c22-fc32e2fb1309_95a2fada-ce31-11e5-9c22-fc32e2fb1309.jpeg?id=277);
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+#test:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 2;
+}
 
 #table-center {
   text-align: center;
@@ -154,7 +173,6 @@ img {
         padding: 15px 0; } }
     .header-area .top-header-area .top-header-content p {
       margin-bottom: 0;
-      font-size: 14px;
       color: #ffffff; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .header-area .top-header-area .top-header-content p {
