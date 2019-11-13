@@ -43,15 +43,6 @@ Last Update: Jan 19, 2018
 @import url(css/font-awesome.min.css);
 @import url(css/style.css);
 /* :: 1.0 Reboot CSS */
-* {
-  margin: 0;
-  padding: 0; }
-
-body {
-  font-weight: 400;
-  font-size: 16px;
-  position: relative;
-  z-index: auto; }
 
 a,
 a:active,
@@ -74,25 +65,21 @@ p {
   font-size: 18px;
 }
 
-img {
-  max-width: 100%;
-  height: auto; }
-
-#test {
+#after-header {
   position: relative;
   background-image: url(http://1c-konsultant.ru/wp-content/uploads/2019/06/1855c094-cbdb-11e5-9c22-fc32e2fb1309_95a2fada-ce31-11e5-9c22-fc32e2fb1309.jpeg?id=277);
   -webkit-background-size: cover;
           background-size: cover;
 }
 
-#test:after {
+#after-header:after {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0,0,0,.5);
+  background: rgba(0,0,0,.6);
   z-index: 2;
 }
 
@@ -122,6 +109,13 @@ img {
   #scrollUp:focus, #scrollUp:hover {
     background-color: #000000;
     color: #ffffff; }
+
+.inner-after-class {
+  height: 45vh;
+  font-family:"Open Sans";
+  position: relative;
+  z-index: 3;
+}
 
 /* :: 6.0 Buttons CSS */
 .btn:focus {
