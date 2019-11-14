@@ -117,6 +117,13 @@ p {
   z-index: 3;
 }
 
+.container-analog {
+  padding: 50px;
+  margin: auto;
+  width: 800px;
+  text-align: center;
+}
+
 /* :: 6.0 Buttons CSS */
 .btn:focus {
   box-shadow: none; }
