@@ -72,10 +72,6 @@ p {
   z-index: 2;
 }
 
-#table-center {
-  text-align: center;
-}
-
 .image-box {
   position: relative;
   background: transparent url(img/bg-img/bg-2.png) scroll no-repeat 0 0;
