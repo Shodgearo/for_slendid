@@ -41,20 +41,9 @@ Last Update: Jan 19, 2018
 @import url(css/owl.carousel.min.css);
 @import url(css/magnific-popup.css);
 @import url(css/style.css);
-@import url(fonts/css)
+@import url(css/font-awesome.min.css);
+@import url(fonts/css);
 /* :: 1.0 Reboot CSS */
-
-a,
-a:active,
-a:focus,
-a:hover {
-  color: #252525;
-  text-decoration: none;
-  -webkit-transition-duration: 500ms;
-  -o-transition-duration: 500ms;
-  transition-duration: 500ms;
-  outline: none;
-  font-weight: 400; }
 
 li {
   list-style: none; }
@@ -135,6 +124,7 @@ p {
 
 .container-analog {
   padding: 50px;
+  padding-top: 100px;
   margin: auto;
   width: 1000px;
   text-align: center;
@@ -145,34 +135,18 @@ p {
   box-shadow: none; }
 
 .akame-btn {
+  min-width: 150px; 
   position: relative;
-  min-width: 150px;
-  height: 42px;
-  line-height: 40px;
-  font-size: 14px;
-  font-weight: 400;
-  display: inline-block;
-  padding: 0 35px;
   text-align: center;
   text-transform: uppercase;
   border-radius: 60px;
-  background-color: #ffde5c; }
-  .akame-btn:focus, .akame-btn:hover {
-    border-color: #bca858;
-    font-weight: 400;
-    font-size: 14px;
-    background-color: #bca858;
-    color: #ffffff;
-    -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
-    box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15); }
-  .akame-btn.active {
-    border-color: #bca858;
-    background-color: #bca858;
-    color: #ffffff; }
-    .akame-btn.active:focus, .akame-btn.active:hover {
-      border-color: #252525;
-      background-color: #252525;
-      color: #ffffff; }
+  background-color: #ffde5c; 
+  min-width: 150px;
+  height: 42px;
+  line-height: 40px;
+  font-weight: 400;
+  display: inline-block;
+}
 
 /* :: 7.0 Header CSS */
 .header-area {
@@ -203,9 +177,10 @@ p {
 /* :: 13.0 Choose Us CSS */
 .choose-us-content {
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  margin-top: 50px; }
   .choose-us-content ul li {
-    font-size: 16px;
+    font-size: 18px;
     display: block;
     margin-bottom: 15px; }
     .choose-us-content ul li i {
@@ -213,3 +188,12 @@ p {
       padding-right: 5px; }
     .choose-us-content ul li:last-child {
       margin-bottom: 0; }
+
+
+.container-list {
+  padding: 50px;
+  padding-top: 100px;
+  margin: auto;
+  width: 1000px;
+  text-align: left;
+}
