@@ -45,6 +45,10 @@ Last Update: Jan 19, 2018
 @import url(fonts/css);
 /* :: 1.0 Reboot CSS */
 
+i {
+  color: #f2ea00
+}
+
 li {
   list-style: none; }
 
@@ -111,7 +115,7 @@ p {
     color: #ffffff; }
 
 .inner-after-class {
-  height: 50vh;
+  padding-bottom: 50px;
   font-family:"Open Sans";
   letter-spacing: 2px;
   position: relative;
@@ -120,7 +124,6 @@ p {
 
 .container-analog {
   padding: 50px;
-  padding-top: 100px;
   margin: auto;
   width: 1000px;
   text-align: center;
@@ -174,22 +177,23 @@ p {
 .choose-us-content {
   position: relative;
   z-index: 1;
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-left: 20vh; }
   .choose-us-content ul li {
     font-size: 18px;
     display: block;
     margin-bottom: 15px; }
     .choose-us-content ul li i {
-      color: #bca858;
       padding-right: 5px; }
     .choose-us-content ul li:last-child {
       margin-bottom: 0; }
 
 
 .container-list {
-  padding: 50px;
-  padding-top: 100px;
-  margin: auto;
-  width: 1000px;
+  width: 100%; 
+  font-size: 20pt;
+  color: white;
+  padding: 40px;
+  padding-top: 50px;
   text-align: left;
 }
