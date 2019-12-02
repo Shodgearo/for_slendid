@@ -118,7 +118,8 @@ p {
     color: #ffffff; }
 
 .inner-after-class {
-  padding-bottom: 50px;
+  padding-bottom: 70px;
+  padding-top: 30px;
   font-family:"Open Sans";
   letter-spacing: 2px;
   position: relative;
@@ -128,7 +129,7 @@ p {
 .container-analog {
   padding: 50px;
   margin: auto;
-  width: 1000px;
+  width: 1200px;
   text-align: center;
 }
 
